@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultados"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="26dp"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textn"
+        android:layout_width="121dp"
+        android:layout_height="144dp"
+        android:text="Ingrese el numero"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="86dp"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textR"
+        android:layout_width="125dp"
+        android:layout_height="144dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="316dp"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="iniciar"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="244dp"
+        tools:visibility="visible" />
+</android.support.constraint.ConstraintLayout>
